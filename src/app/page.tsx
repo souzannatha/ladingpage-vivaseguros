@@ -1,3 +1,11 @@
+import { Plans } from "./components/Plans";
+import { SectionBenefits } from "./components/SectionBenefits";
+
 export default function Home() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <SectionBenefits />
+      <Plans />
+    </div>
+  );
 }
